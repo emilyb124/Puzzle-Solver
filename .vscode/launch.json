@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "args": "3 5 2 6 4 7 8 1 2 2 3 6 0",
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "args": "3 5 2 6 4 7 8 1 2 2 3 6 0",
+            "type": "java",
+            "name": "Launch WayFinder",
+            "request": "launch",
+            "mainClass": "WayFinder",
+            "projectName": "Project 4_7fbc5933"
+        }
+    ]
+}
