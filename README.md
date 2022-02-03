@@ -1,18 +1,9 @@
-## Getting Started
+# Puzzle-Solver
+This program requires a list of space separated numbers between 0 and 100 in command line,
+ending in a 0. 
+The puzzle starts on the first number, and move that many steps to the right, landing on
+another number. It then is allowed to move that new number amount of steps in either direction.
+The goal is to eventually land on the 0 at the end of the list. 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+This program uses recursive to go through the possible paths and build a list of correct solutions.
+All possible solutions are printed out to the console.
