@@ -1,4 +1,7 @@
 # Puzzle-Solver
+
+_Note: This is a Data Structures 2021 class project, assigned by Professor Joanna Klukowska, NYU._
+
 This program requires a list of space separated numbers between 0 and 100 in command line,
 ending in a 0. 
 The puzzle starts on the first number, and move that many steps to the right, landing on
